@@ -1,0 +1,124 @@
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-decoration: none; /* Remove default link underline */
+}
+
+.bold-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Set your desired color */
+}
+
+.normal-text {
+    font-size: 24px;
+    color: #333; /* Set your desired color */
+    margin-left: 5px; /* Add margin between "COZA" and "STORE" */
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+td img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btn-view {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-update {
+    background-color: #2196F3;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* You can still include custom styles in styles.css, but Bootstrap styles will take precedence for Bootstrap components. */
+/* Add the following styles to your existing styles.css */
+
+.admin-profile {
+    text-align: right;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.logout-link {
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logout-link:hover {
+    text-decoration: underline;
+}
+
+.view-all-btn {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.view-all-btn:hover {
+    background-color: #45a049;
+}
+
